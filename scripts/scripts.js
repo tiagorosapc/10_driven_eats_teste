@@ -81,6 +81,7 @@ function ativarBotaoFecharPedido(){
                 botao.classList.add('ativo');
 
                 botao.innerHTML = 'Fazer o Pedido';
+                botao.removeAttribute('disabled');
              }
         }
     }

@@ -80,7 +80,7 @@ function ativarBotaoFecharPedido(){
                 const botao = document.querySelector('.fazer-pedido');
                 botao.classList.add('ativo');
 
-                botao.innerHTML = 'Fazer o Pedido';
+                botao.innerHTML = 'Fechar Pedido';
                 botao.removeAttribute('disabled');
              }
         }
